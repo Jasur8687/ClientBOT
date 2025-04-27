@@ -64,7 +64,7 @@ async def check_id(message: Message):
             if msg.text and user_id in msg.text:
                 cover = FSInputFile("cover.jpg")
                 keyboard = InlineKeyboardMarkup(inline_keyboard=[
-                    [InlineKeyboardButton(text="🚀 ОТКРЫТЬ", url="https://t.me/skript1win_bot/skriptbot")]
+                    [InlineKeyboardButton(text="🚀 ОТКРЫТЬ", url="https://t.me/minessgamee_bot/hackermines")]
                 ])
                 await message.answer("✅ Ваш ID найден! Доступ разрешён.")
                 await message.answer_photo(photo=cover, caption="Открыть Программу:", reply_markup=keyboard)
